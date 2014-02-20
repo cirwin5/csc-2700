@@ -11,7 +11,14 @@ For Cactuscode:
    git log --grep=GROUP_SCALAR : used this to search revision log for specific term.
 
 3) svn co http://svn.cactuscode.org/flesh/trunk/src : to checkout svn
+   git count-objects -v : use this to give me a sizepack of 1975 of the 'cloned' svn
+   git archive master | tar -x -C ~/new-srcsvn2git/ : I used this command to try and export the repo to a new repo.
+                                                      When I went into the directory and used git count-objects -v
+                                                      it returned a value of 0. I know the filesize should be less
+                                                      because it is suppose to create a clean directory free of meta-
+                                                      data but a value of 0 did not seem correct.
    svn --version : to get svn version, using version 1.6.17
+
 
 
 For GitHub Questions:

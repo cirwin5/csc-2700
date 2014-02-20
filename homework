@@ -3,14 +3,17 @@ csc-2700
 
 For Cactuscode:
 
-I am using Github and Gitbash. I was able to clone the src for catctuscode project using 'git svn clone' but could 
-not remotely push it using GitBash. I had to find the folder and use GitHub's desktop application and drag the 
-repository folder into it then sync it with my account. Once it was in my account I wasnt able to navigate it on my 
-account website to find the answers as I did for question 2 and the 'moddle' project. 
+1) "Basic structure now implemented. Still needs all the code behind the skeleton."
+   svn log : to get log of the revisions
+
+2)
+
+3) svn co http://svn.cactuscode.org/flesh/trunk/src : to checkout svn
+   svn --version : to get svn version, using version 1.6.17
 
 
 For GitHub Questions:
-
+For these questions I imported the repository to my GitHub account and was able to use the web interface to find the answers
 
 1) 5 forks
 

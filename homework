@@ -6,7 +6,9 @@ For Cactuscode:
 1) "Basic structure now implemented. Still needs all the code behind the skeleton."
    svn log : to get log of the revisions
 
-2)
+2) commit 1839
+   git svn clone http://svn.cactuscode.org/flesh/trunk/src : to clone svn into git
+   git log --grep=GROUP_SCALAR : used this to search revision log for specific term.
 
 3) svn co http://svn.cactuscode.org/flesh/trunk/src : to checkout svn
    svn --version : to get svn version, using version 1.6.17
